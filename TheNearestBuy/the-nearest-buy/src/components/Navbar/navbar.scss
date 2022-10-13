@@ -1,0 +1,17 @@
+#navbar{
+    height: 72px;
+    background-color: #0B1829;
+    display: flex;
+    align-items: center;
+    // justify-content: flex-start;
+    color: rgb(213, 213, 213);
+    padding: 0px 60px;
+    z-index: 2000;
+    img{
+        height: 70px;
+        width: auto;
+    }
+    .loginSignUp{
+        margin-left: auto;
+    }
+}

@@ -1,0 +1,23 @@
+#navbar {
+  height: 72px;
+  background-color: #0B1829;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #d5d5d5;
+  padding: 0px 60px;
+  z-index: 2000;
+}
+
+#navbar img {
+  height: 70px;
+  width: auto;
+}
+
+#navbar .loginSignUp {
+  margin-left: auto;
+}
+/*# sourceMappingURL=Navbar.css.map */
