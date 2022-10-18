@@ -10,7 +10,7 @@ class ReactView(APIView):
     serializer_class = ShopSerializer
   
     def get(self, request):
-        shops = [ {"name": i.name,"address": i.address,"city":i.city} for i in Shop.objects.all()]
+        shops = [ {"name": i.name,"latitude": i.latitude,"longitude":i.longitude} for i in Shop.objects.all()]
         return Response(shops)
   
     def post(self, request):
