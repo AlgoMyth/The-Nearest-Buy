@@ -11,7 +11,7 @@ class ReactView(APIView):
   
     def get(self, request):
         shops = [ {"name": i.name,"address": i.address,"city":i.city} for i in Shop.objects.all()]
-        return Response(shop)
+        return Response(shops)
   
     def post(self, request):
   
