@@ -1,0 +1,17 @@
+#home{
+    background-color: #011E3D;
+    height: max-content;
+    padding: 20px;
+    display: flex;
+    // align-items: center;
+    // justify-content: center;
+
+    .products{
+        display: flex;
+        flex-wrap: wrap;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+}

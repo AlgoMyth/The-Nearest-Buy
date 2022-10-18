@@ -1,4 +1,12 @@
+.navIcon {
+    position: fixed;
+    left: 10px;
+    transform: scale(1.2);
+    display: none;
+}
+
 #navbar{
+    
     height: 72px;
     background-color: #0B1829;
     display: flex;
@@ -7,6 +15,7 @@
     color: rgb(213, 213, 213);
     padding: 0px 60px;
     z-index: 2000;
+    
     img{
         height: 70px;
         width: auto;
@@ -14,4 +23,25 @@
     .loginSignUp{
         margin-left: auto;
     }
+}
+
+@media only screen and (max-width: 768px){
+    .navIcon {
+        position: fixed;
+        z-index: 2;
+            display: block;
+        }
+    #navbar{
+        z-index: 1;
+        position: fixed;
+        height: 100vh;
+        width: 80vw;
+        flex-direction: column  ;
+        padding: 10px;
+        
+        .loginSignUp{
+            margin:40px auto;
+        }
+    }
+    
 }
