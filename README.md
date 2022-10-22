@@ -1,4 +1,8 @@
 # The-Nearest-Buy
+The Nearest Buy is a web application made using django and ReactJS. It uses user's browser's location to buy and sell goods from the seller nearest to him. 
+Products will be filtered according user's location , need and price
+
+
 1. Install Virtual environment.
    ```
    pip install virtualenv
