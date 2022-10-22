@@ -7,8 +7,8 @@ class Shop(models.Model):
     longitude = models.DecimalField(
                 max_digits=9, decimal_places=6, null=True, blank=True)
     # city = models.CharField(max_length=50)
-    # item_desc = models.CharField(max_length=100,default="")
-    # cost = models.IntegerField(default=0)
+    item_desc = models.CharField(max_length=100,default="")
+    cost = models.IntegerField(default=0)
 
     def __str__(self):
         return self.name

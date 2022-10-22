@@ -5,12 +5,12 @@ from .models import Shop
 
 @admin.register(Shop)
 class ShopAdmin(admin.ModelAdmin):
-    list_display = ('name', 'latitude', 'longitude',)
+    list_display = ('name', 'latitude', 'longitude','item_desc','cost')
     search_fields = ('name',)
 
     fieldsets = (
         (None, {
-            'fields': ( 'name', 'latitude', 'longitude',)
+            'fields': ( 'name', 'latitude', 'longitude','item_desc','cost')
         }),
     )
 
